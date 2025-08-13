@@ -1,0 +1,3 @@
+method,mean_time_s,stdev_time_s,mean_peak_bytes,stdev_peak_bytes,times,peaks
+Naive (list.count in loop),0.971175,0.054085,51410,14406,0.933730;1.047657;0.932137,71784;41224;41224
+Optimized (collections.Counter),0.005343,0.000289,56414,1241,0.005752;0.005154;0.005123,58170;55536;55536
